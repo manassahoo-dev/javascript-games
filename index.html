@@ -5,8 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    JavaScript Games
+    <div class="container mx-auto">
+      <div class="bg-white">
+        <div
+          class="mx-auto max-w-screen-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8"
+        >
+          <h2 class="text-2xl font-bold tracking-tight text-gray-900">
+            JavaScript Games
+          </h2>
+
+          <div
+            class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8"
+          >
+            <div class="group relative">
+              <div
+                class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80"
+              >
+                <a href="/pig-game/">
+                  <img
+                    src="https://www.svgrepo.com/show/433499/game4-f.svg"
+                    alt="Front of men&#039;s Basic Tee in black."
+                    class="h-full w-full object-cover object-center lg:h-full lg:w-full p-4"
+                  />
+                </a>
+              </div>
+              <div class="mt-4 flex justify-between">
+                <div>
+                  <p class="mt-1 text-lg font-medium text-gray-900">Pig Game</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- More products... -->
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
